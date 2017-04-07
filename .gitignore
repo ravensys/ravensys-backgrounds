@@ -1,0 +1,22 @@
+# build objects
+gnome-backgrounds-ravensys.xml
+ravensys.xml
+normalish
+standard
+tv-wide
+wide
+
+# obj directory
+obj
+
+# dist archives
+ravensys-backgrounds.tar.gz
+ravensys-backgrounds.tar.xz
+
+# release archives
+ravensys-backgrounds-*.tar.gz
+ravensys-backgrounds-*.tar.xz
+
+# open build service
+build-service
+
