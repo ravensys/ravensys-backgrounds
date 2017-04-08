@@ -1,22 +1,32 @@
-# build objects
-gnome-backgrounds-ravensys.xml
-ravensys.xml
-normalish
-standard
-tv-wide
-wide
+#
+# Build objects and directories
+#
+/obj/
+/normalish/
+/standard/
+/tv-wide/
+/wide/
+/*.xml
 
-# obj directory
-obj
+#
+# Distribution archives (make dist)
+#
+/ravensys-backgrounds.tar.gz
+/ravensys-backgrounds.tar.xz
 
-# dist archives
-ravensys-backgrounds.tar.gz
-ravensys-backgrounds.tar.xz
+#
+# Release archives (make release)
+#
+/ravensys-backgrounds-*.tar.gz
+/ravensys-backgrounds-*.tar.xz
 
-# release archives
-ravensys-backgrounds-*.tar.gz
-ravensys-backgrounds-*.tar.xz
+#
+# openSUSE Build Service
+#
+/build-service/
 
-# open build service
-build-service
-
+#
+# IntelliJ IDEA Project files
+#
+.idea/
+*.iml
